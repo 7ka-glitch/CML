@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>10 лаба</title>
+    <style>
+@import url(s768.css) (min-width:768px) and  (max-width:1280px);
+@media (max-width:768px) and (min-width:480px)
+{
+  h3{
+    text-align: center;
+    margin-top: 60px;
+  font-size: 35px;
+  }
+  .photos{
+    display: flex;
+    flex-direction: column;
+    border-top: 1px solid black;
+    height: 200px;
+  }
+  .photo{
+    position: relative;
+    margin: 1%;
+    width: 100%;
+    height: 100%;
+  }
+  img{
+    width: 100%;
+    height: 100%;
+  }
+  figcaption{
+    text-align: center;
+    color:red;
+  }
+}
+    </style>
+    <link rel="stylesheet" href="ex1.css" />
+    <link href="s1280.css" rel="stylesheet" media=" (min-width: 1280px)">
+  </head>
+  <body>
+    <div class="container">
+      <div class="item item1"><h1>Артхаус</h1></div>
+      <div class="row">
+        <div class="items item2">
+          <div class="vidos vidos1">
+            <iframe
+              width="100%"
+              height="100%"
+              src="https://www.youtube.com/embed/4pMEmuyeE3M?si=jxe506spSxvBViRI"
+              title="YouTube video player"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              referrerpolicy="strict-origin-when-cross-origin"
+              allowfullscreen
+            ></iframe>
+          </div>
+          <div class="vidos vidos2">
+            <iframe
+              width="100%"
+              height="100%"
+              src="https://www.youtube.com/embed/IBLtwzZV_B4?si=ZMGdPD7LTmrDBOfB"
+              title="YouTube video player"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              referrerpolicy="strict-origin-when-cross-origin"
+              allowfullscreen
+            ></iframe>
+          </div>
+          <div class="vidos vidos3">
+            <iframe
+              width="100%"
+              height="100%"
+              src="https://www.youtube.com/embed/_wyup7CUXx4?si=2jRZuBtemuktceDB"
+              title="YouTube video player"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              referrerpolicy="strict-origin-when-cross-origin"
+              allowfullscreen
+            ></iframe>
+          </div>
+        </div>
+        <div class="items item3">
+          <img src="pngwing.com.png" class="ss" alt="" />
+          Flexbox (Flexible Box Layout) — это мощный инструмент CSS для создания
+          гибких и адаптивных макетов. Он позволяет легко управлять
+          пространством между элементами и их выравниванием в одномерной
+          плоскости — либо по горизонтали, либо по вертикали. Основные концепции
+          Flexbox Flex-контейнер и Flex-элементы: Flex-контейнер — это
+          родительский элемент, на который применяется свойство display: flex;.
+          Flex-элементы — это дочерние элементы внутри flex-контейнера. Главная
+          и поперечная оси: Главная ось (main axis) определяется свойством
+          flex-direction и может быть горизонтальной (row) или вертикальной
+          (column). Поперечная ось (cross axis) проходит перпендикулярно главной
+          оси. Основные свойства Flexbox: flex-direction: определяет направление
+          главной оси (row, row-reverse, column, column-reverse).
+          justify-content: выравнивает элементы вдоль главной оси (flex-start,
+          flex-end, center, space-between, space-around). align-items:
+          выравнивает элементы вдоль поперечной оси (flex-start, flex-end,
+          center, stretch, baseline). flex-wrap: управляет переносом элементов
+          на новую строку (nowrap, wrap, wrap-reverse). align-content: управляет
+          выравниванием нескольких строк flex-элементов (flex-start, flex-end,
+          center, space-between, space-around, stretch).
+        </div>
+        <div class="items item4">
+          <h2>Lil Morty - I Am Cute</h2>
+          <audio src="Lil Morty I Am Cute.mp3" controls></audio>
+          <h2>Платина - Завидуют</h2>
+          <audio src="Платина - Завидуют.mp3" controls></audio>
+          <h2>SODA LUV & BushidoZho - Коми</h2>
+          <audio
+            src="SODA_LUV_Bushido_Zho_-_Komi_71522023.mp3"
+            controls
+          ></audio>
+        </div>
+      </div>
+    </div>
+    <div class="container2">
+      <input type="checkbox" id="burger" />
+      <label for="burger"><h1>Бургер</h1></label>
+      <nav>
+        <ul>
+          <li><a href="https://next.music.yandex.by/">музыка</a></li>
+          <li><a href="https://www.youtube.com/">Ютубчик</a></li>
+          <li>
+            <a href="https://ok.ru/?ysclid=m41kb5tlqd950756750">Месенджер</a>
+          </li>
+          <li><a href="https://www.deepl.com/ru/translator">Переводчик</a></li>
+        </ul>
+      </nav>
+    </div>
+    <h3>Галерея</h3>
+    <div class="photos">
+      <figure class="photo">
+        <img src="першы фара.webp" alt="" />
+        <figcaption>УАДЖЕТ</figcaption>
+      </figure>
+      <figure class="photo">
+        <img src="phara.jpeg" alt="" />
+        <figcaption>PHOSPHOR</figcaption>
+      </figure>
+      <figure class="photo">
+        <img src="на луне.jpeg" alt="" />
+        <figcaption>На Луне</figcaption>
+      </figure>
+      <figure class="photo">
+        <img src="million.png" alt="" />
+        <figcaption>Million Dollar Depression</figcaption>
+      </figure>
+      <figure class="photo">
+        <img src="dolor.webp" alt="" />
+        <figcaption>DOLOR
+        </figcaption>
+      </figure>
+      <figure class="photo">
+        <img src="pp.jpeg" alt="" />
+        <figcaption>Pink Phloyd</figcaption>
+      </figure>
+      <figure class="photo">
+        <img src="role.jpeg" alt="" />
+        <figcaption>Правило</figcaption>
+      </figure>
+      <figure class="photo">
+        <img src="кондиетрская.webp" alt="" />
+        <figcaption>Кондитерская</figcaption>
+      </figure>
+    </div>
+  </body>
+</html>

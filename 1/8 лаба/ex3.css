@@ -1,0 +1,40 @@
+li{
+    display: block;
+    border:dashed 2px black;
+    width: 120px;
+    font-size: 20px;
+    height: 50px;
+    background-color: orange;
+    vertical-align: middle;
+}
+.first{
+ 
+    border: solid black 2px;
+    width: 200px;
+    height: 50px;
+   background-color: yellow;
+   
+}
+p{
+ margin-left: 10px;
+    margin-top: 8px;
+}
+nav ul li{
+    position:relative;
+}
+nav ul li ul{
+    position: absolute;
+    left: -40px;
+    display: none;
+    
+    
+}
+a,span{
+    padding-left: 10px;
+    text-decoration: none;
+    color:black;
+       
+}
+nav ul li:hover ul{
+    display: block;
+}

@@ -1,0 +1,116 @@
+div{
+    display: inline-block;
+    margin: 40px;
+  
+    width: 300px;
+    height: 300px;
+}
+.first{
+    background-image: url(inst.png);
+    background-position: center;
+    background-size: 300px;
+    background-repeat: no-repeat; 
+    margin-left: 250px;
+}
+.first:hover{
+   transform: scale(0.5);
+   transition: linear 0.5s;
+}
+.second{
+    background-image: url(tiktok.png);
+    background-position: center;
+    background-size: 300px;
+    background-repeat: no-repeat;
+}
+.second:hover{
+    rotate: 45deg;
+    transition: linear 0.5s;
+}
+.three{
+    background-image: url(twiter.png);
+    background-position: center;
+    background-size: 300px;
+    background-repeat: no-repeat;
+}
+.three:hover{
+    transition: linear 0.5s;
+    transform: translate(50px);
+}
+.four{
+    background-image: url(youtube.png);
+    background-position: center;
+    background-size: 300px;
+    background-repeat: no-repeat;
+}
+.four:hover{
+    transition: linear 0.5s;
+    transform: skew(-20deg);
+}
+button{
+    width: 200px;
+    height: 50px;   
+    background-color: white;
+    font-size: 20px;
+}
+.but1:hover{
+    transition: linear 0.5s;
+    background-color: black;
+    color: white;
+}
+.but2:hover{
+    transition: linear 0.5s;
+    border:8px solid red;
+    outline: 8px solid yellow;
+}
+.but3:hover{
+    border-top: 7px solid green;
+    border-bottom: 7px solid green;
+    transition: linear 0.5s;
+    border-left: none;
+    border-right: none;
+}
+.but4:hover{
+    border-top:none ;
+    border-bottom: none;
+    border-right: solid 7px blue;
+    border-left: solid 7px blue;
+    transition: linear 0.5s;
+}
+.but5:hover{
+    transition: linear 0.5s;
+    background: radial-gradient(yellow 20%,pink 20%,blue ,rgb(0, 255, 255)  );
+}
+div>div:first-child{
+    margin-left: 220px;
+}
+.ex33   {
+    width: 9000px;
+    height: 8000px;
+}
+.img1{
+   transform: rotatex(50deg);
+}
+.ex3{
+    perspective: 900px;
+    perspective-origin: center;
+    transform-origin: 100% ;
+}
+img{
+    display: inline-block;
+}
+.img2{
+transform: rotatey(60deg);
+}
+.img4{
+transform: rotatey(-50deg);
+}
+h1{
+    animation:h 3s linear infinite;
+    margin: 0 auto;
+    margin-left: 520px;
+}
+@keyframes h {
+    0%{opacity: 0;}
+    50%{opacity: 80%;}
+    100%{opacity: 0;}
+}

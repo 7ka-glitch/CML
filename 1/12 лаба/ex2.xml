@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<?xml-stylesheet type="text/css" href="ex1.css"?>
+<!DOCTYPE root [
+    <!ELEMENT root (nproduct, nprice)>
+    <!ELEMENT nproduct (product+)>
+    <!ELEMENT nprice (price+)>
+    <!ELEMENT product (#PCDATA)>
+    <!ELEMENT price (#PCDATA)>
+    <!ENTITY videocard1 "Видеокарта Asus GeForce RTX 4060 LP BRK OC Edition 8GB GDDR6 RTX4060-O8G-LP-BRK">
+    <!ENTITY videocard2 "Видеокарта Asus Dual GeForce RTX 4070 EVO 12GB GDDR6 (DUAL-RTX4070-12GD6-EVO)">
+    <!ENTITY videocard3 "Видеокарта Asus Dual GeForce RTX 4060 V2 OC Edition 8GB GDDR6 DUAL-RTX4060-O8G-V2 (Bulk)">
+    <!ENTITY videocard4 "Видеокарта Afox GeForce GTX 1050 Ti 4GB GDDR5 AF1050TI-4096D5H7-V6">
+    <!ENTITY videocard5 "Видеокарта NVIDIA RTX 2000 Ada Generation 16GB GDDR6 900-5G192-2240-000">
+]>
+ <root>
+        <nproduct> 
+            <product>&videocard1;</product>
+            <product>&videocard2; </product>
+            <product>&videocard3; </product>
+            <product> &videocard4; </product>
+            <product>&videocard5;</product>
+        </nproduct>
+        <nprice>
+            <price>1 668.73 руб</price>
+            <price>3 155.43 руб</price>
+            <price>1 748.65 руб</price>
+            <price>657.39 руб</price>
+            <price>4 241.47 руб</price>
+        </nprice>
+    </root>

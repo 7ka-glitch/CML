@@ -1,0 +1,23 @@
+nav{
+    display: inline;
+}
+ul:first-child{
+    margin-left: 20%;
+}
+li{
+    display: inline-block;
+    margin-right: -4px;
+    width: 100px;
+    height: 40px;
+    border: solid 1px rgb(17, 172, 17);
+    text-align: center;
+    background-color: yellow;
+    
+}
+a{
+   color: rgb(17, 172, 17);
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 0px;
+    padding: 10%;
+}

@@ -1,0 +1,36 @@
+p {
+  color: blue;
+  font-family: arial;
+  font-size: 16pt;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: purple;
+  font-family: Monotype Corsiva;
+}
+
+.pod1 {
+  color: red;
+  font-size: 18pt;
+  font-family: "Times New Roman";
+}
+
+.pod2 {
+  font-size: 20pt;
+  color: yellow;
+  font-family: "Times New Roman";
+}
+
+.pod3 {
+  color: green;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 22pt;
+}
+
+tbody tr, th {
+  color: red;
+}
+
+thead tr {
+  color: red;
+}/*# sourceMappingURL=ex6.css.map */

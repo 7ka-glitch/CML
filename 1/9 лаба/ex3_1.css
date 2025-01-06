@@ -1,0 +1,86 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+.conteiner{
+    border: solid 4px black;
+    background-image:url(закатпнг.png);
+    width: 753.5px;
+    height: 689px;
+    text-align: center;
+    margin-left: 25%;
+    margin-top: 2%;
+    grid-column-gap:12px ;
+    grid-row-gap: 12px;
+    display: grid;
+    grid-template-areas: 
+    "nav ContentHeader ContentHeader "
+    "nav ContentArticle ContentAside"
+    "ContentFooter ContentFooter ContentFooter"
+    ;
+    grid-template-columns:133px 399px 200px;
+    grid-template-rows:133px 399px 133px ;
+}
+.item{
+    border: solid 4px black;
+}
+ol{
+    margin-left: 27px;
+    text-align: left;
+}
+li{
+    margin-bottom: 100px;
+    margin-top: 50px;
+}
+a{
+    text-decoration: none;
+    color: rgb(11, 8, 150);
+}
+.ContentFooter{
+    font-size: 50px;
+    padding: 30px;
+}
+.ContentHeader{
+    padding: 35px; 
+}
+h1{
+    font-size: 40px;
+}
+h2{
+    font-size: 23px;
+    color: rgb(0, 0, 0);
+}
+nav{
+
+    font-size: 24px;
+}
+.ContentArticle,.ContentAside{
+    font-size: 17px;
+    color: rgb(0, 0, 0);
+    text-align: justify;
+    padding: 5px;
+}
+.ContentArticle{
+    overflow:auto;
+    
+}
+.html{
+    width: 100%;
+    padding-top: 40%;
+}
+.nav{
+    border-left: none;
+    border-top: none;
+}
+.ContentHeader{
+    border-top: none;
+    border-right: none;
+}
+.ContentAside{
+    border-right: none;
+}
+.ContentFooter{
+    border-left: none;
+    border-bottom: none;
+    border-right: none;
+}

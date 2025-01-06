@@ -1,0 +1,201 @@
+* {
+  margin: 0%;
+  padding: 0%;
+}
+
+
+.container {
+  display: flex;
+  flex-direction: column;
+  width: 99.9%;
+  height: 100%;
+}
+.item {
+  border: 1px solid black;
+  border-left: 2px solid black;
+  margin: 10px;
+  width: 100%;
+  align-self: center;
+  text-align: center;
+}
+.row {
+  display: flex;
+  justify-content: center;
+  gap: 0.9%;
+  height: 750px;
+}
+.items {
+  width: 100%;
+  border: 1px solid black;
+  align-self: center;
+  text-align: center;
+}
+.vidos {
+  border: 2px solid black;
+  height: 100%;
+  width: 100%;
+}
+.item1 {
+  background-color: pink;
+}
+.item2 {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+.item3 {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  background-color: orange;
+  overflow: auto;
+}
+audio {
+  margin-bottom: 160px;
+  width: 100%;
+}
+.item4 {
+  background-image: url(https://news-ru.gismeteo.st/2018/10/f8ff288f.jpg);
+
+  background-size: 1200px;
+  background-position: -200px;
+  width: 100%;
+  height: 100%;
+  color: rgb(223, 238, 12);
+}
+.ss {
+  position: absolute;
+  width: 100%;
+  left: -1%;
+}
+.container2 {
+  margin-top: 10%;
+  
+  display: flex;
+  flex-direction: column;
+  width: 99.92%;
+  height: 100%;
+}
+.cell {
+  border: solid 1px black;
+  justify-content: center;
+  text-align: center;
+  font-size: 30px;
+  height: 100%;
+  padding: 1%;
+}
+
+span {
+  margin-left: 43%;
+  display: inline-block;
+}
+h1 {
+  font-size: 35px;
+  display: inline-block;
+}
+
+@media (max-width:768px)
+{
+  [for=burger]::before {
+    content: "\2261";
+  }
+  #burger
+  {
+    display: none;
+  }
+  #burger:checked+[for=burger]::before{
+    content: "\2716";
+    display: inline-block;
+    
+  }
+
+  li{
+    border: 1px solid black;
+    margin: 1%;
+    font-size: 30px;
+    margin-left: 0;
+    list-style-type: none;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+  }
+  nav ul{
+    display: none;
+  }
+  #burger:checked + label + nav ul{
+    display: block;
+  }
+  label{
+    border: solid 1px black;
+    text-align: center;
+    font-size: 30px;
+    height: 100%;
+    padding: 1%;
+  }
+}
+@media (min-width:768px)
+{
+  li{
+    display: inline;
+    border: 1px solid black;
+    margin: 5%;
+    font-size: 30px;
+    margin-left: 0;
+    list-style-type: none;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    padding: 2%;
+    background-color: pink;
+  }
+  label,nav,ul{
+    display: inline;
+  width: 100%;
+  color: white;
+  }
+  .container2{
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+  }
+  input{
+    display: none;
+  }
+}
+
+@media (max-width:1280px)
+{
+  .photos{
+    display: flex;
+    flex-direction: column;
+    border-top: 1px solid black;
+ 
+
+  }
+  
+}
+
+h3{
+  text-align: center;
+  margin-top: 60px;
+font-size: 35px;
+}
+.photos{
+  display: flex;
+  border-top: 1px solid black;
+  height: 200px;
+}
+.photo{
+  position: relative;
+  margin: 1%;
+  width: 100%;
+  height: 83%;
+}
+img{
+  width: 100%;
+  height: 100%;
+}
+figcaption{
+  text-align: center;
+}
+

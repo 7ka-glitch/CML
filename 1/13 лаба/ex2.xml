@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="ex2.xsl"?>
+<students>
+    <student>
+        <name>Иванов Иван</name>
+        <subject>Математика</subject>
+        <grade>3</grade>
+    </student>
+    <student>
+        <name>Петров Петр</name>
+        <subject>Физика</subject>
+        <grade>9</grade>
+    </student>
+    <student>
+        <name>Олегов Олег</name>
+        <subject>Информатика</subject>
+        <grade>7</grade>
+    </student>
+    <student>
+        <name>Витальев Виталий</name>
+        <subject>История</subject>
+        <grade>10</grade>
+    </student>
+    <student>
+        <name>Ародь Владислав</name>
+        <subject>Литература</subject>
+        <grade>2</grade>
+    </student>
+</students>

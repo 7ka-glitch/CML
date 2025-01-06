@@ -1,0 +1,28 @@
+.container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    height: 438px;
+}
+.items{
+  height: 100%;
+  margin: 3%;
+}
+img{
+position: relative;
+width: 100%;
+border: 3px solid black;
+}
+p{
+ position: absolute ;
+ top: 100px;
+
+}
+
+#third{
+  position: relative;
+
+}
+#Liza{
+top: -530px;  
+visibility: hidden;
+}

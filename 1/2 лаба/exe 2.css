@@ -1,0 +1,12 @@
+*{
+    background-color: #bdb76b;
+}
+div>h2{
+    color: rgb(0,250,154);
+}
+div h3{
+    color: yellow;
+}
+#sp{
+    text-decoration: line-through;
+}

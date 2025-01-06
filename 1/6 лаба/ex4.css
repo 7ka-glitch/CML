@@ -1,0 +1,30 @@
+div{
+    display: inline-block;
+    border: solid 1px black;
+    width: 200px;
+    height: 200px;
+    text-align: center;
+
+}
+.cc{
+    margin-left: 23%;
+    
+}
+.first{
+    
+    background-image: linear-gradient( to top, red ,blue  );
+}
+.second{
+    background-image:repeating-linear-gradient(45deg, red,red 10px,blue 10px,blue 20px) ;
+}
+.third{
+    background-image: radial-gradient(yellow,green);
+}
+.four{
+  background-image:repeating-radial-gradient(green,green 10px,yellow 10px,yellow 20px);
+}
+.five{
+   
+   background-image: radial-gradient(yellow ,green,rgba(0, 128, 0, 0) ),
+     linear-gradient(0deg,rgb(147, 4, 160),blue);
+}

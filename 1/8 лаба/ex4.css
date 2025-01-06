@@ -1,0 +1,44 @@
+ul li{
+   
+   display: inline-block;
+   margin: 10px;
+   position: relative;
+   border: solid 1px black;
+   width: 120px;
+   text-align: center;
+   height: 20px;
+
+}
+ul li ul {
+    position: absolute;
+    left: -80.5px;
+    display: none;
+}
+ul li ul li{
+    bottom: -1px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+ul li:hover ul{
+    display: block;
+}
+nav ul{
+    margin-left: 25%;
+}
+.one,.two,.three,.four{
+    background: url(facultet.png) no-repeat 0 0;
+    background-size: 20px;
+}
+.two:hover{
+background-position: 0 -20px;
+}
+.three:hover{
+    background-position: 0 -60px;
+}
+.four:hover{
+background-position: 0 -40px;
+}

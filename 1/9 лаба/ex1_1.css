@@ -1,0 +1,21 @@
+.items{
+    display: grid;
+    grid-template-columns: auto 1fr 1fr;
+    grid-template-rows: 800px;
+    column-gap: 10px;
+}
+.item{
+    border: solid 2px black;
+    text-align: center;
+    font-size: 25px;
+}
+.item_1{
+    letter-spacing: 5px;
+    writing-mode: vertical-lr;
+    transform: rotate(360deg);
+    text-align: center;
+    text-orientation: upright;
+}
+h3{
+    display: inline;
+}
